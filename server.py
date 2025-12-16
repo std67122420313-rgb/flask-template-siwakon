@@ -24,7 +24,7 @@ def favorite_foods():
 
 
 @app.route('/favorite/sport')
-def favorite_sport():
+def favorite_sports():
   title = 'Favorite sport Page'
-  sport = ['ฟุตบอล','แบดมินตัน','บาสเกสบอล']
-  return render_template('favorite_foods.html',title=title,sport=sport)
+  sports = ['ฟุตบอล','แบดมินตัน','บาสเกสบอล']
+  return render_template('favorite_sport.html',title=title, sports=sports)
